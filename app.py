@@ -6,7 +6,7 @@ import warnings
 
 warnings.filterwarnings('ignore')
 
-# Load the model and scaler
+# Load the model
 with open('good_model.pkl', 'rb') as file:
     loaded_model = pickle.load(file)
 
@@ -90,28 +90,6 @@ h1, h2 {
     border-color: #007bff;
 }
 
-.footer {
-    background-color: #007bff;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    border-radius: 5px;
-    margin-top: 20px;
-}
-
-.footer p {
-    margin: 0;
-    font-size: 16px;
-}
-
-.footer a {
-    color: #f0f2f6;
-    text-decoration: none;
-}
-
-.footer a:hover {
-    text-decoration: underline;
-}
 </style>
 """, unsafe_allow_html=True)
 
